@@ -42,3 +42,13 @@ infrastructure "just to see what happens."
 This project is provided for educational purposes — learning how TCP
 connections, ports, and services work. The author is not responsible for
 any misuse of this tool.
+
+---
+
+## What is a port scan, and what does it reveal?
+
+Every networked device has 65,535 TCP and 65,535 UDP ports. A port scanner
+attempts to open a connection to a range of ports on a target and checks
+whether the connection succeeds. If it does, something is listening on
+that port — usually a specific service (a web server on port 80, SSH on
+port 22, a database on port 3306, etc).
