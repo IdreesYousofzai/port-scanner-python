@@ -34,3 +34,11 @@ networks you think are "fair game."
   Metasploitable, DVWA, or a self-hosted target.
 - Systems where you have **written authorization** (e.g. a pentest
   engagement letter or bug bounty scope).
+
+**Never scan:** employer networks without written sign-off, public Wi-Fi,
+university networks, IoT devices you don't own, or any third-party
+infrastructure "just to see what happens."
+
+This project is provided for educational purposes — learning how TCP
+connections, ports, and services work. The author is not responsible for
+any misuse of this tool.
