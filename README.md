@@ -24,3 +24,13 @@ in most jurisdictions, regardless of intent — for example:
 A port scan can also trigger intrusion-detection alerts and be treated as
 the first stage of an attack by the target's security team, even on
 networks you think are "fair game."
+
+**Safe places to use this tool:**
+- `127.0.0.1` / `localhost` — your own machine.
+- Your own home network devices (e.g. a router or Raspberry Pi you own),
+  ideally after confirming with anyone else on the network.
+- Deliberately vulnerable practice environments built for this purpose —
+  CTF platforms (Hack The Box, TryHackMe, PicoCTF), or local lab VMs like
+  Metasploitable, DVWA, or a self-hosted target.
+- Systems where you have **written authorization** (e.g. a pentest
+  engagement letter or bug bounty scope).
