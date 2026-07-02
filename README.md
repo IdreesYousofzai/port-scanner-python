@@ -13,3 +13,14 @@ written permission to test.**
 
 Port scanning a system you don't own or have authorization for is illegal
 in most jurisdictions, regardless of intent — for example:
+
+- **UK**: the **Computer Misuse Act 1990** makes unauthorised access to a
+  computer system a criminal offence, even if no data is changed or stolen
+  and even if the scan is "just reconnaissance."
+- **US**: the **Computer Fraud and Abuse Act (CFAA)** carries similar
+  unauthorised-access provisions.
+- Most other countries have equivalent computer misuse laws.
+
+A port scan can also trigger intrusion-detection alerts and be treated as
+the first stage of an attack by the target's security team, even on
+networks you think are "fair game."
