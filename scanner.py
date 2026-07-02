@@ -3,7 +3,7 @@ Network Port Scanner
 =====================
 A basic multi-threaded TCP port scanner built with Python's socket library.
 
-⚠️  LEGAL / ETHICAL NOTICE ⚠️
+LEGAL / ETHICAL NOTICE
 Only scan hosts you own or have explicit written permission to test
 (e.g. your own home lab, localhost, or a CTF target). Scanning networks
 you do not own or have authorization for is illegal in most countries
