@@ -167,12 +167,3 @@ Scan complete in 1.42s. 3 open port(s) found.
 4. **Reporting**: if `--save` is passed, results plus scan metadata
    (target, range, timeout, duration, timestamp) are written to a `.txt`
    file.
-
-## Possible extensions (not implemented here)
-
-- UDP scanning (more complex — UDP is connectionless, so "closed" vs
-  "filtered" is ambiguous without extra probing).
-- Banner grabbing (reading the first bytes a service sends after connect
-  to identify software/version).
-- Export to CSV/JSON in addition to `.txt`.
-- Randomised port-scan order / rate limiting to be gentler on the network.
