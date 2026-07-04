@@ -16,6 +16,7 @@ Usage:
     python scanner.py -t 127.0.0.1 --save report.txt
 """
 
+
 import argparse
 import socket
 import sys
