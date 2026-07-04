@@ -137,6 +137,7 @@ def run_scan(target: str, start_port: int, end_port: int, timeout: float, max_th
     return open_ports, elapsed
 
 
+
 def write_report(path: str, target: str, start_port: int, end_port: int,
                   timeout: float, open_ports: list, elapsed: float):
     """Write scan results to a timestamped .txt report."""
