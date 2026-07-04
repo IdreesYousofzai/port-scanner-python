@@ -28,6 +28,7 @@ from datetime import datetime
 # Common port -> service name mappings.
 # This is not exhaustive — it covers the most frequently seen services.
 # ---------------------------------------------------------------------------
+
 COMMON_PORTS = {
     20: "FTP-DATA",
     21: "FTP",
