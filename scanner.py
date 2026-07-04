@@ -76,6 +76,7 @@ COMMON_PORTS = {
 print_lock = threading.Lock()
 
 
+
 def identify_service(port: int) -> str:
     """Return a human-readable service name for a well-known port."""
     return COMMON_PORTS.get(port, "Unknown")
