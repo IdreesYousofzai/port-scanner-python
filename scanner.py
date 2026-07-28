@@ -96,6 +96,7 @@ def scan_port(target: str, port: int, timeout: float) -> tuple[int, bool]:
         return port, result == 0
 
 
+
 def run_scan(target: str, start_port: int, end_port: int, timeout: float, max_threads: int):
     """
     Scan target across [start_port, end_port] using a thread pool.
