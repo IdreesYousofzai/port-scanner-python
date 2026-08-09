@@ -130,6 +130,7 @@ def run_scan(target: str, start_port: int, end_port: int, timeout: float, max_th
                 continue
 
             if is_open:
+                
                 service = identify_service(port)
                 open_ports.append((port, service))
                 with print_lock:
