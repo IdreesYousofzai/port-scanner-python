@@ -91,6 +91,7 @@ def scan_port(target: str, port: int, timeout: float) -> tuple[int, bool]:
     than wrapping connect() in try/except for every closed port.
     """
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+        
         sock.settimeout(timeout)
         result = sock.connect_ex((target, port))
         return port, result == 0
