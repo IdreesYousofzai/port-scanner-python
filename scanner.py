@@ -45,6 +45,7 @@ COMMON_PORTS = {
     138: "NetBIOS-DGM",
     139: "NetBIOS-SSN",
     143: "IMAP",
+    
     161: "SNMP",
     194: "IRC",
     389: "LDAP",
