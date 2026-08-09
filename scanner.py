@@ -113,6 +113,7 @@ def run_scan(target: str, start_port: int, end_port: int, timeout: float, max_th
     start_time = datetime.now()
 
     with ThreadPoolExecutor(max_workers=max_threads) as executor:
+        
         futures = {
             executor.submit(scan_port, target, port, timeout): port
             for port in range(start_port, end_port + 1)
