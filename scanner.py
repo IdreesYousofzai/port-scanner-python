@@ -146,6 +146,7 @@ def write_report(path: str, target: str, start_port: int, end_port: int,
     """Write scan results to a timestamped .txt report."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(path, "w") as f:
+        
         f.write("=" * 50 + "\n")
         f.write("PORT SCAN REPORT\n")
         f.write("=" * 50 + "\n")
